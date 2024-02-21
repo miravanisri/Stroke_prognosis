@@ -45,4 +45,4 @@ def result():
         return render_template('stroke.html')
 
 if __name__=="__main__":
-    app.run(debug=True,port=7384)
+    app.run(debug=false,host='0.0.0.0')
